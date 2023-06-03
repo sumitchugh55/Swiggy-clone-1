@@ -1,0 +1,198 @@
+body {
+    
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#sign_{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+#log{
+    border: none;
+    background-color: white;
+}
+#log:hover{
+color:#fc8112;
+
+}
+.button_{
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.input{
+    border: 1px solid grey;
+}
+
+.input_{
+    width: 550px;
+    height: 53px;
+    border: 1px solid orange;
+}
+input{
+    border: none;
+    width: 320px;
+    height: 50px;
+}
+
+#find_f{
+    height: 53px;
+    width: 123px;
+    background-color: #fc8019;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.black_{
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+.grey_{
+    color: rgb(175,175,175);
+    text-decoration: none;
+    font-weight: bold;
+}
+#login_img{
+    height: 95vh;
+    width: 550px;
+    background-image: url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#login_comp{
+    display: flex;
+    
+}
+#login_{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding: 30px 60px 0;
+}
+#loc{
+    padding: 10px;
+    border: none;
+    background-color: white;
+    
+}
+
+/* Second Section */
+#stack{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    background-color: #2b1e16;
+
+justify-content: space-evenly;
+    
+}
+.cards img{
+    width: 105px;
+    height: 199px;
+    
+}
+
+.cards{
+    
+   padding: 25px;
+    color: white;
+    }
+
+    .cards span{
+       
+        width: 80px;
+        font-size: 14px;
+        color: rgba(219, 209, 209, 0.863);
+    }
+    li{
+        padding:3px;
+    }
+/* Third section */
+#rest{
+    display: flex;
+    height: 540px;
+}
+#img_stack img{
+    width: 350px;
+    height: 489px;
+}
+
+.a{
+    position: relative;
+    top: 50px;
+}
+.sumit{
+    flex-basis: 40%;
+    padding: 80px 20px 20px 10px;
+    
+}
+.sumit h1{
+    width: 230px;
+}
+.sumit img{
+    width: 150px;
+    height: 50px;
+}
+
+/* section fourth */
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    
+
+}
+#foot-1{
+    color: white;
+    list-style: none;
+    margin: 20px;
+}
+#foot-2{
+    color: white;
+    list-style: none;
+    margin: 20px;
+}
+#foot-3{
+    color: white;
+    list-style: none;
+    margin: 20px;
+}
+.footers span{
+   
+    padding:30px 10px;
+    color: grey;
+}
+#foot-4 img{
+    width: 150px;
+    height: 50px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: 1.5s;
+  
+}
+#foot-4 img:hover{
+    width: 153px;
+    height: 52px;
+
+}
+li{
+    padding: 10px;
+}
